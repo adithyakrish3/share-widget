@@ -1,5 +1,11 @@
 .App {
-  text-align: center;
+  text-align: left;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 50px;
+  padding-top: 50px;
+  position: relative;
+  padding-bottom: 100px;
 }
 
 .App-logo {
@@ -35,4 +41,38 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.button {
+  background-color: #111827;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 5px 15px;
+  display: flex;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+
+.share {
+  margin-left: 10px;
+  line-height: 22px;
+}
+
+.widget {
+  position: absolute;
+  padding: 15px;
+  border: 1px solid #E6E7EB;
+  border-radius: 5px;
+  top: 90px;
+  width: 450px;
+}
+
+.text {
+  color: #111827;
+  font-size: 16px;
+}
+
+.subtext {
+  color: #6B7280;
+  font-size: 14px;
 }
