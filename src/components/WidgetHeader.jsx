@@ -1,5 +1,6 @@
 import React from 'react';
 import ShareToWeb from '../Icons/shareToWeb.svg';
+import ToggleSwitch from './common/switch/ToggleSwitch'
 
 const WidgetHeader = () => {
 	return (
@@ -21,7 +22,7 @@ const WidgetHeader = () => {
 				</div>
 			</div>
 			<div>
-				Switch
+				<ToggleSwitch />
 			</div>
 		</div>
 	)
