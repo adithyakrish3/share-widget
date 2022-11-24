@@ -1,11 +1,12 @@
 import React from 'react';
 import WidgetHeader from './WidgetHeader';
+import WidgetBody from './WidgetBody'
 
 const Widget = () => {
 	return (
 		<div>
 			<WidgetHeader />
-			Hello
+			<WidgetBody />
 		</div>
 	)
 }
